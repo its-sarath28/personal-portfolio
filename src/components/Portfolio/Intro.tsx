@@ -50,7 +50,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="text-[24px] font-krona">Hello, I'm</span>
+        <span className="text-[24px] font-krona">Hello, I&apos;m</span>
         <span className="text-[48px] font-trirong">Sarath R S</span>
         <span className="text-[22px] font-rubik">
           A curious full-stack developer with a knack for building fast,

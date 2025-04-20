@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="font-rubik lg:text-[18px] dark:text-gray-400">
-        Hi, I'm Sarath — a full-stack developer who loves bringing ideas to life
-        through clean, scalable code.
+        Hi, I&apos;m Sarath — a full-stack developer who loves bringing ideas to
+        life through clean, scalable code.
       </p>
       <p className="font-rubik lg:text-[18px] dark:text-gray-400">
         I specialize in crafting intuitive web and mobile experiences using
@@ -41,14 +41,15 @@ export default function About() {
         enjoyable digital solutions.
       </p>
       <p className="font-rubik lg:text-[18px] dark:text-gray-400">
-        I'm always curious, constantly learning, and genuinely excited about
-        solving real-world problems with tech. Whether it’s diving into a new
-        framework or fine-tuning app performance, I approach every challenge
+        I&apos;m always curious, constantly learning, and genuinely excited
+        about solving real-world problems with tech. Whether it’s diving into a
+        new framework or fine-tuning app performance, I approach every challenge
         with energy and a focus on growth.
       </p>
       <p className="font-rubik lg:text-[18px] dark:text-gray-400">
-        Outside of code, you'll usually find me exploring new tools, leveling up
-        my skills, or sipping coffee while brainstorming the next big idea ☕.
+        Outside of code, you&apos;ll usually find me exploring new tools,
+        leveling up my skills, or sipping coffee while brainstorming the next
+        big idea ☕.
       </p>
     </motion.section>
   );

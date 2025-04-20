@@ -22,11 +22,14 @@ export async function sendEmail(formData: FormData) {
     });
 
     return { success: true };
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error sending email:", error);
     return {
       success: false,
-      error: "Failed to send email. Please try again later.",
+      error:
+        error instanceof Error
+          ? error.message
+          : "Failed to send email. Please try again later.",
     };
   }
 }
