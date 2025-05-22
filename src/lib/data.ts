@@ -1,5 +1,6 @@
 import foodiorImage from "@/assets/Foodior.png";
 import expenseTracker from "@/assets/Expense-tracker.png";
+import projectManagement from "@/assets/Project_management.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 
@@ -31,6 +32,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Project Management Web App",
+    description:
+      "A full-stack project management platform with features for managing workspaces, projects, and tasks. Built with server-side rendering, real-time database integration, and a clean, responsive UI.",
+    tags: ["NextJS", "Hono", "AppWrite", "Shadcn UI"],
+    imageUrl: projectManagement,
+    githubLink: "https://github.com/its-sarath28/project_management_web_app",
+  },
   {
     title: "Expense Tracker App",
     description:
